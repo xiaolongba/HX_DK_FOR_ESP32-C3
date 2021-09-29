@@ -2,9 +2,22 @@
 该代码仓主要用于存放红旭无线ESP32C3开发板的硬件、软件、教程等相关的内容。
 
 # 开发板简介
+[HX-DK-商](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w4004-22286946226.12.7f292c2cfSNrZb&id=654877303965)，是红旭无线第二代无线通讯开发板，采用乐鑫ESP32-C系列的第一代产品ESP32-C3，其是一款安全稳定、低功耗、低成本的物联网芯片，搭载 RISC-V 32 位单核处理器 **（高达 160 MHz）**，同时 **支持`2.4 GHz Wi-Fi`，`全功能Bluetooth 5.0 (LE)`，`Bluetooth Mesh`，`WiFi Mesh`** 等协议，更多关于ESP32-C3的详情请参阅[乐鑫官网](https://www.espressif.com/zh-hans/products/socs/esp32-c3)。
+
+<img src="./Tutorials/Asserts/hx_dk_shang.png" width = "" height = "" alt="" align=center />
+
+[HX-DK-商](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w4004-22286946226.12.7f292c2cfSNrZb&id=654877303965)的概貌如上图所示，关于更多HX-DK-商的内容，请参阅红旭无线公众号的推文[【新品上市】HX-DK-商，支持WiFi+BLE5.0](https://mp.weixin.qq.com/s/7ETvlsvo3OYlM7oS1uCpLA)
 
 # 资料
+鉴于红旭无线上一代[HX-DK-夏](https://item.taobao.com/item.htm?spm=a230r.1.14.20.b5f04a28o0GC0A&id=608555326842&ns=1&abbucket=20#detail)的市场反馈，此次HX-DK-商开发板将采用全实战教程的方式，来阐述ESP32-C3的无线通讯的性能，并顺带讲解无线通讯过程中所使用到的ESP32-C3外设，如`UART`，`SPI`，`I2C`等等。同时，也鉴于目前市场上充斥着大量ESP32系列的WiFi教程，所以基于HX-DK-商的实战教程的优先级如下：
+1. 低功耗蓝牙(高)
+1. SIG MESH(中)
+1. WiFi(低)
+
 ## 硬件
+### 原理图
+### PCB图
+### 规格书
 ## 软件
 
 ## 教程
