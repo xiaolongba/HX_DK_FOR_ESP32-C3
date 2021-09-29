@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "esp_bt.h": "c",
+        "hx_adv_api.h": "c"
+    },
+    "idf.portWin": "COM40"
+}

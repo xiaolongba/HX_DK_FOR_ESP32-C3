@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+F:/BLE_WIFI/Espressif/HX_DK_FOR_ESP32C3/Software/1_Advertisement/build/CMakeFiles/bootloader
+F:/BLE_WIFI/Espressif/HX_DK_FOR_ESP32C3/Software/1_Advertisement/build/CMakeFiles/bootloader.rule
+F:/BLE_WIFI/Espressif/HX_DK_FOR_ESP32C3/Software/1_Advertisement/build/CMakeFiles/bootloader-complete.rule
+F:/BLE_WIFI/Espressif/HX_DK_FOR_ESP32C3/Software/1_Advertisement/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+F:/BLE_WIFI/Espressif/HX_DK_FOR_ESP32C3/Software/1_Advertisement/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+F:/BLE_WIFI/Espressif/HX_DK_FOR_ESP32C3/Software/1_Advertisement/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+F:/BLE_WIFI/Espressif/HX_DK_FOR_ESP32C3/Software/1_Advertisement/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+F:/BLE_WIFI/Espressif/HX_DK_FOR_ESP32C3/Software/1_Advertisement/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+F:/BLE_WIFI/Espressif/HX_DK_FOR_ESP32C3/Software/1_Advertisement/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+F:/BLE_WIFI/Espressif/HX_DK_FOR_ESP32C3/Software/1_Advertisement/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
