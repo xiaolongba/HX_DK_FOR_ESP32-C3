@@ -1,6 +1,0 @@
-source "F:/BLE_WIFI/Espressif/SDK/esp-idf-c3/components/app_update/Kconfig.projbuild"
-source "F:/BLE_WIFI/Espressif/SDK/esp-idf-c3/components/bootloader/Kconfig.projbuild"
-source "F:/BLE_WIFI/Espressif/SDK/esp-idf-c3/components/esp_rom/Kconfig.projbuild"
-source "F:/BLE_WIFI/Espressif/SDK/esp-idf-c3/components/esptool_py/Kconfig.projbuild"
-source "F:/BLE_WIFI/Espressif/SDK/esp-idf-c3/components/partition_table/Kconfig.projbuild"
-source "F:/BLE_WIFI/Espressif/HX_DK_FOR_ESP32C3/Software/1_Advertisement/main/Kconfig.projbuild"

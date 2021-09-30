@@ -1,4 +1,0 @@
-source "F:/BLE_WIFI/Espressif/SDK/esp-idf-c3/components/bootloader/Kconfig.projbuild"
-source "F:/BLE_WIFI/Espressif/SDK/esp-idf-c3/components/esp_rom/Kconfig.projbuild"
-source "F:/BLE_WIFI/Espressif/SDK/esp-idf-c3/components/esptool_py/Kconfig.projbuild"
-source "F:/BLE_WIFI/Espressif/SDK/esp-idf-c3/components/partition_table/Kconfig.projbuild"

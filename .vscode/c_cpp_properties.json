@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${default}"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "D:\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64",
+            "compileCommands": "${workspaceFolder}/Software/Examples_Project/1_Advertisement/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
