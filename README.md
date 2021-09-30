@@ -10,17 +10,21 @@
 
 # 资料
 鉴于红旭无线上一代[HX-DK-夏](https://item.taobao.com/item.htm?spm=a230r.1.14.20.b5f04a28o0GC0A&id=608555326842&ns=1&abbucket=20#detail)的市场反馈，此次HX-DK-商开发板将采用全实战教程的方式，来阐述ESP32-C3的无线通讯的性能，并顺带讲解无线通讯过程中所使用到的ESP32-C3外设，如`UART`，`SPI`，`I2C`等等。同时，也鉴于目前市场上充斥着大量ESP32系列的WiFi教程，所以基于HX-DK-商的实战教程的优先级如下：
-1. 低功耗蓝牙 $\color{red} {（高）} $
-1. SIG MESH $\color{hotpink} {（中）} $
-1. WiFi $\color{pink} {（低）} $
+1. 低功耗蓝牙 <font color=#FF0000>**（高）**</font>
+1. SIG MESH <font color=#CF000>**（中）**</font>
+1. WiFi <font color=#AF000>**（低）**</font>
 
 ## 硬件
 ### 原理图
+占位，待补充
 ### PCB图
+占位，待补充
 ### 规格书
+占位，待补充
 ## 软件
-
+占位，待补充
 ## 教程
+占位，待补充
 ### BLE
 #### 基础篇
 1. [BLE基础知识](./Tutorials/Basic_Chapter/BLE基础知识.md)
@@ -33,9 +37,10 @@
 #### 实战篇
 
 ### SIG MESH
+占位，待补充
 
 ### WiFi
-
+占位，待补充
 # 关于我们
 1. 技术交流论坛
     
