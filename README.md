@@ -35,14 +35,14 @@
 1. [【新手必读】红旭相关源码的约定俗称](https://github.com/xiaolongba/wireless-tech/blob/master/%E8%BD%AF%E4%BB%B6/%E7%BA%A2%E6%97%AD%E6%97%A0%E7%BA%BF%E7%9A%84%E6%BA%90%E7%A0%81%E7%9B%B8%E5%85%B3%E7%9A%84%E7%BA%A6%E5%AE%9A%E4%BF%97%E7%A7%B0/README.md)
 
     讲解红旭无线教程后续所涉及到的代码约定俗称
-1. [【新手必读】基于VSCODE的ESP32C3开发环境的搭建](./Tutorials/Basic_Chapter/基于VSCODE的ESP32C3开发环境的搭建.md)
+1. [【新手必读】基于VSCODE的ESP32-C3开发环境的搭建](./Tutorials/Basic_Chapter/基于VSCODE的ESP32C3开发环境的搭建.md)
 
     详述了如何利用`VSCODE` + `Espressif IDF`插件，一步一步地搭建ESP32-C3的开发环境
 1. [【新手必读】基于JTAG对ESP32-C3的调试及下载](./Tutorials/Basic_Chapter/基于JTAG对ESP32-C3的调试及下载.md)
 
     讲述了如何利用JTAG接口对ESP32-C3进行调试或下载
 #### 基础篇
-1. [【新手必读】初识ESP32-C3]()
+1. [【新手必读】初识ESP32-C3](./Tutorials/Basic_Chapter/初识ESP32-C3.md)
 
     介绍ESP32-C3的软硬件特性，常用的文档以及获取技术支持的方式，让新手可以更快地了解并使用ESP32-C3，以避免过多的资料让新人无法入手
 1. [【新手选读】ESP32-C3启动流程详解](./Tutorials/Basic_Chapter/ESP32-C3启动流程详解.md)
@@ -52,7 +52,6 @@
 
     介绍一些日常高频使用到的BLE知识点
 1. [【新手必读】第一课：Hello World](./Tutorials/Basic_Chapter/BLE基础知识.md)
-
 
     利用[HX-DK-商](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w4004-22286946226.12.7f292c2cfSNrZb&id=654877303965)开发板，搭建第一个Hello World工程
 
