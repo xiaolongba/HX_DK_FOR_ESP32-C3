@@ -59,7 +59,7 @@ ESP32-C3，是乐鑫于2020年11月27日向外公布的一款低成本高性能且注重安全的**WiFi4 & 
 
 1. [【推荐★★★★】，红旭技术论坛](https://bbs.wireless-tech.cn/)
 
-    红旭无线有专人解答，但仅限于ESP32-C3无线相关的Issues；
+    红旭无线有专人解答，由于人手有限，所以仅限于[HX-DK-商](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w4004-22286946226.12.7f292c2cfSNrZb&id=654877303965)开发板所涉及的无线相关问题；
 
 1. 
     ![](https://img.shields.io/badge/QQ%E7%BE%A4-808014164-red)
