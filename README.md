@@ -47,7 +47,7 @@
 1. [【新手选读】ESP32-C3启动流程详解](./Tutorials/Basic_Chapter/ESP32-C3启动流程详解.md)
 
     细述了ESP32-C3从上电到app_main()函数的整个过程
-1. [【新手必读】第一课：Hello World](./Tutorials/Basic_Chapter/BLE基础知识.md)
+1. [【新手必读】第一课：Hello World](./Software/Examples_Project/hello_world/README.md)
 
     利用[HX-DK-商](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w4004-22286946226.12.7f292c2cfSNrZb&id=654877303965)开发板，搭建第一个Hello World工程
     
