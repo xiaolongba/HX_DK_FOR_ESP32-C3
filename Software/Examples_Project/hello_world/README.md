@@ -1,6 +1,9 @@
 # Hello World 示例工程
 
-该示例工程的功能就是：每隔1秒钟就打印输出 **“Hello world!”** 字符串。
+该示例工程的功能就是：每隔1秒钟就打印输出 **“Hello world!”** 
+字符串。
+
+![](../../../Tutorials/Asserts/hello_world.gif)
 
 ## 如何使用该示例工程
 
