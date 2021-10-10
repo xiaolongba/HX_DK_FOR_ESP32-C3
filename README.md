@@ -30,7 +30,7 @@
 ### 公共基础篇
 1. [【新手必读】如何下载HX-DK-商开发板资料](https://github.com/xiaolongba/wireless-tech/tree/master/%E8%BD%AF%E4%BB%B6/%E7%BA%A2%E6%97%AD%E6%97%A0%E7%BA%BF%E5%BC%80%E5%8F%91%E6%9D%BF%E5%AE%9E%E6%88%98%E6%95%99%E7%A8%8B/%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97)
     
-    阐述下载HX-DK-商开发板资料的方法
+    阐述下载HX-DK系列开发板资料的方法
 1. [【新手必读】红旭相关源码的约定俗称](https://github.com/xiaolongba/wireless-tech/blob/master/%E8%BD%AF%E4%BB%B6/%E7%BA%A2%E6%97%AD%E6%97%A0%E7%BA%BF%E7%9A%84%E6%BA%90%E7%A0%81%E7%9B%B8%E5%85%B3%E7%9A%84%E7%BA%A6%E5%AE%9A%E4%BF%97%E7%A7%B0/README.md)
 
     讲解红旭无线教程后续所涉及到的代码约定俗称
@@ -39,11 +39,11 @@
     详述了如何利用`VSCODE` + `Espressif IDF`插件，一步一步地搭建ESP32-C3的开发环境
 1. [【新手必读】基于JTAG对ESP32-C3的调试及下载](./Tutorials/Basic_Chapter/基于JTAG对ESP32-C3的调试及下载.md)
 
-    讲述了如何利用JTAG接口对ESP32-C3进行调试或下载
+    讲述了基于`VSCODE` + `Espressif IDF`插件的基础上，如何利用JTAG接口对ESP32-C3进行调试或下载
 
 1. [【新手必读】初识ESP32-C3](./Tutorials/Basic_Chapter/初识ESP32-C3.md)
 
-    介绍ESP32-C3的软硬件特性，常用的文档以及获取技术支持的方式，让新手可以更快地了解并使用ESP32-C3，以避免过多的资料让新人无法入手
+    介绍ESP32-C3的软硬件特性，常用的文档以及获取技术支持的方式，让新手可以更快地了解并使用ESP32-C3，避免网上过多的资料让新人无从下手
 1. [【新手选读】ESP32-C3启动流程详解](./Tutorials/Basic_Chapter/ESP32-C3启动流程详解.md)
 
     细述了ESP32-C3从上电到app_main()函数的整个过程
