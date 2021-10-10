@@ -11,6 +11,7 @@ BLEµÄ¹«¹²µØÖ·£¬¾ÍÀàËÆÓÚÎÒÃÇÈÕ³£µÄÉí·ÝÖ¤ºÅÂë£¬ÊÇÈ«ÇòÎ¨Ò»µÄÇÒ²»¿É¸Ä±äµÄ£¬²»Í¬µÄÊÇ£
 
 1. ÆäÊÇÈ«ÇòÎ¨Ò»µÄÇÒÔÚBLEÉè±¸µÄÕû¸öÉúÃüÖÜÆÚ£¬¶¼²»»á¸Ä±ä£»
 1. ×Ü³¤¶ÈÎª6¸ö×Ö½Ú£¬Æä×é³É½á¹¹ÈçÏÂÍ¼ËùÊ¾£º
+    
     <img src="../Asserts/Public-Address-Format.png" width = "" height = "" alt="" align=center />
 
     - Company ID£ºIEEE·ÖÅäµÄ£¨×î¸ßÓÐÐ§Î»£©
@@ -20,7 +21,6 @@ BLEµÄ¹«¹²µØÖ·£¬¾ÍÀàËÆÓÚÎÒÃÇÈÕ³£µÄÉí·ÝÖ¤ºÅÂë£¬ÊÇÈ«ÇòÎ¨Ò»µÄÇÒ²»¿É¸Ä±äµÄ£¬²»Í¬µÄÊÇ£
 ³ýÁË¹«¹²µØÖ·ÀàÐÍÖ®Íâ£¬»¹ÓÐÒ»¸öËæ»úµØÖ·ÀàÐÍ£¬ÆäÓÖ·ÖÎª**¾²Ì¬µØÖ·£¨Static Address£©**ºÍ**Ë½ÓÐµØÖ·£¨Private Address£©**£¬ËüÃÇÖ®¼äÖ÷ÒªÍ¨¹ý×î¸ßµÄ2Î»ÓÐÐ§Î»À´Çø·Ö£¬¾ßÌåÈçÏÂËùÊ¾£º
 ## ¾²Ì¬µØÖ·£¨Static Address£©
 Í¬Ñù£¬Æä×Ü³¤¶ÈÒ²ÊÇ48bits£¬µ«ÊÇ×î¸ßµÄ2Î»ÓÐÐ§Î»ÊÇ`0b11`£¬×é³É½á¹¹ÈçÏÂÍ¼ËùÊ¾£º
-
   <img src="../Asserts/static-address-format.drawio.png" width = "" height = "" alt="" align=center />
 
 ¸ÃµØÖ·ÀàÐÍµÄÖ÷ÒªÌØµãÈçÏÂ£º
@@ -32,6 +32,17 @@ BLEµÄ¹«¹²µØÖ·£¬¾ÍÀàËÆÓÚÎÒÃÇÈÕ³£µÄÉí·ÝÖ¤ºÅÂë£¬ÊÇÈ«ÇòÎ¨Ò»µÄÇÒ²»¿É¸Ä±äµÄ£¬²»Í¬µÄÊÇ£
 
 ## Ë½ÓÐµØÖ·£¨Private Address£©
 BLEµÄË½ÓÐµØÖ·ÓÖ·ÖÎª**²»¿É½âÎöË½ÓÐµØÖ·£¨Non-resolvable private address)** ºÍ **¿É½âÎöË½ÓÐµØÖ·£¨Resolvable private address£©**£¬ËüÃÇÖ®¼äµÄÖ÷ÒªÇø±ðÈçÏÂ£º
-### ²»¿É½âÎöË½ÓÐµØÖ·£¨Non-resolvable private address)
 
 ### ¿É½âÎöË½ÓÐµØÖ·£¨Resolvable private address£©
+
+### ²»¿É½âÎöË½ÓÐµØÖ·£¨Non-resolvable private address)
+¹ËÃûË¼Òå£¬¾ÍÊÇËµ¸ÃË½ÓÐµØÖ·²»¿ÉÒÔ±»½âÎö£¬Æä×é³ÉµÄ½á¹¹ÈçÏÂÍ¼ËùÊ¾£º
+
+<img src="../Asserts/non-resolvable-private-address-format.drawio.png" width = "" height = "" alt="" align=center />
+
+Í¬Ñù£¬Æä×Ü³¤¶ÈÎª48bits£¬¶ÔÓ¦µÄÌØµãÈçÏÂ£º
+1. Ëæ»ú²¿·ÖµÄÄÚÈÝÖÁÉÙÓÐÒ»¸öbitÊÇ0ºÍ1£»
+1. ²»¿É½âÎöË½ÓÐµØÖ·²»ÄÜÓë¹«¹²µØÖ·ÏàÍ¬£»
+
+# ×Ü½á
+
