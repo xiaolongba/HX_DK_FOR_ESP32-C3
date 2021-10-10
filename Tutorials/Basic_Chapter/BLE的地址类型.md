@@ -5,17 +5,19 @@
 BLEµÄ¹«¹²µØÖ·£¬¾ÍÀàËÆÓÚÎÒÃÇÈÕ³£µÄÉí·İÖ¤ºÅÂë£¬ÊÇÈ«ÇòÎ¨Ò»µÄÇÒ²»¿É¸Ä±äµÄ£¬²»Í¬µÄÊÇ£º
 1. ÎªÁË±£Ö¤BLE¹«¹²µØÖ·µÄÈ«ÇòÎ¨Ò»ĞÔ£¬ÆäĞèÒªÏò[IEEE](https://standards.ieee.org/products-services/regauth/index.html)¹ºÂò£¬È»ºóIEEE×éÖ¯¾Í»á¶ÔÓ¦µØ·ÖÅä¹«¹²µØÖ·¸øÂò¼Ò£»
 1. Èç¹ûÏëÒª²éÑ¯Ä³BLEÉè±¸µÄ¹«¹²µØÖ·ÊÇÄÄ¸ö³§ÉÌµÄ£¬Ôò¿ÉÒÔµã´Ë[Á´½Ó](https://regauth.standards.ieee.org/standards-ra-web/pub/view.html#registries)²éÑ¯£¬ÈçESP32-C3µÄÃ¿¸öĞ¾Æ¬¶¼×Ô´øÓĞÒ»¸ö¹«¹²µØÖ·£º
-  <img src="../Asserts/public_address_espressif.png" width = "" height = "" alt="" align=center />
-  <img src="../Asserts/public_address_espressif_ieee.png" width = "" height = "" alt="" align=center />
+    <img src="../Asserts/public_address_espressif.png" width = "" height = "" alt="" align=center />
+
+    <img src="../Asserts/public_address_espressif_ieee.png" width = "" height = "" alt="" align=center />
 
 1. ÆäÊÇÈ«ÇòÎ¨Ò»µÄÇÒÔÚBLEÉè±¸µÄÕû¸öÉúÃüÖÜÆÚ£¬¶¼²»»á¸Ä±ä£»
 1. ×Ü³¤¶ÈÎª6¸ö×Ö½Ú£¬Æä×é³É½á¹¹ÈçÏÂÍ¼ËùÊ¾£º
-  <img src="../Asserts/Public-Address-Format.png" width = "" height = "" alt="" align=center />
-  - Company ID£ºIEEE·ÖÅäµÄ£¨×î¸ßÓĞĞ§Î»£©
-  - Company Assigned£º¹«Ë¾ÄÚ²¿·ÖÅäµÄ£¨×îµÍÓĞĞ§Î»£©
+    <img src="../Asserts/Public-Address-Format.png" width = "" height = "" alt="" align=center />
+
+    - Company ID£ºIEEE·ÖÅäµÄ£¨×î¸ßÓĞĞ§Î»£©
+    - Company Assigned£º¹«Ë¾ÄÚ²¿·ÖÅäµÄ£¨×îµÍÓĞĞ§Î»£©
 
 # Ëæ»úµØÖ·£¨Random Address£©
-³ıÁË¹«¹²µØÖ·ÀàĞÍÖ®Íâ£¬»¹ÓĞÒ»¸öËæ»úµØÖ·ÀàĞÍ£¬ÆäÓÖ·ÖÎª**¾²Ì¬µØÖ·£¨Static Address£©**ºÍ**Ë½ÓĞµØÖ·£¨Private Address£©**£¬ËüÃÇÖ®¼äÖ÷ÒªÍ¨¹ı×î¸ßµÄ2Î»ÓĞĞ§Î»À´Çø·Ö¡£
+³ıÁË¹«¹²µØÖ·ÀàĞÍÖ®Íâ£¬»¹ÓĞÒ»¸öËæ»úµØÖ·ÀàĞÍ£¬ÆäÓÖ·ÖÎª**¾²Ì¬µØÖ·£¨Static Address£©**ºÍ**Ë½ÓĞµØÖ·£¨Private Address£©**£¬ËüÃÇÖ®¼äÖ÷ÒªÍ¨¹ı×î¸ßµÄ2Î»ÓĞĞ§Î»À´Çø·Ö£¬¾ßÌåÈçÏÂËùÊ¾£º
 ## ¾²Ì¬µØÖ·£¨Static Address£©
 Í¬Ñù£¬Æä×Ü³¤¶ÈÒ²ÊÇ48bits£¬µ«ÊÇ×î¸ßµÄ2Î»ÓĞĞ§Î»ÊÇ`0b11`£¬×é³É½á¹¹ÈçÏÂÍ¼ËùÊ¾£º
 
@@ -29,5 +31,7 @@ BLEµÄ¹«¹²µØÖ·£¬¾ÍÀàËÆÓÚÎÒÃÇÈÕ³£µÄÉí·İÖ¤ºÅÂë£¬ÊÇÈ«ÇòÎ¨Ò»µÄÇÒ²»¿É¸Ä±äµÄ£¬²»Í¬µÄÊÇ£
 1. Èç¹ûBLEÉè±¸µÄ¾²Ì¬µØÖ·¸Ä±äÁË£¬ÄÇÃ´Èç¹û¶Ô¶ËÉè±¸´æ·ÅÁËÖ®Ç°µÄ¾²Ì¬µØÖ·£¬Õâ¾Í»áµ¼ÖÂÖØÁ¬¾ÉµÄµØÖ·Ê±Ê§°Ü£»
 
 ## Ë½ÓĞµØÖ·£¨Private Address£©
+BLEµÄË½ÓĞµØÖ·ÓÖ·ÖÎª**²»¿É½âÎöË½ÓĞµØÖ·£¨Non-resolvable private address)** ºÍ **¿É½âÎöË½ÓĞµØÖ·£¨Resolvable private address£©**£¬ËüÃÇÖ®¼äµÄÖ÷ÒªÇø±ğÈçÏÂ£º
 ### ²»¿É½âÎöË½ÓĞµØÖ·£¨Non-resolvable private address)
+
 ### ¿É½âÎöË½ÓĞµØÖ·£¨Resolvable private address£©
