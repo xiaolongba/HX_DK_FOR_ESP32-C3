@@ -1,6 +1,8 @@
 # Ç°ÑÔ
 ÔÚBLEÁìÓòÖÐ£¬µØÖ·ÊÇÃ¿¸öBLEÉè±¸²»¿É»òÈ±µÄÖØÒª×é³É²¿·Ö£¬Æä¾ÍÀàËÆÓÚÎÒÃÇÈÕ³£µÄ×¡Õ¬µØÖ·£¬Í¨¹ýÕâ¸öµØÖ·¾Í¿ÉÒÔÕÒµ½²¢Ê¶±ðµ½Õâ¸öBLEÉè±¸£¬·ñÔòÖÜ±ßÕâÃ´¶àBLEÉè±¸¾ÍÈ«ÂÒÌ×ÁË£»ÄÇÃ´£¬BLEµÄµØÖ·ÓÖ·ÖÎªÄÄ¼¸ÖÖÄØ£¿
 
+<img src="../Asserts/ble-different-addresses.drawio.png" width = "" height = "" alt="" align=center />
+
 # ¹«¹²µØÖ·£¨Public Address£©
 BLEµÄ¹«¹²µØÖ·£¬¾ÍÀàËÆÓÚÎÒÃÇÈÕ³£µÄÉí·ÝÖ¤ºÅÂë£¬ÊÇÈ«ÇòÎ¨Ò»µÄÇÒ²»¿É¸Ä±äµÄ£¬²»Í¬µÄÊÇ£º
 1. ÎªÁË±£Ö¤BLE¹«¹²µØÖ·µÄÈ«ÇòÎ¨Ò»ÐÔ£¬ÆäÐèÒªÏò[IEEE](https://standards.ieee.org/products-services/regauth/index.html)¹ºÂò£¬È»ºóIEEE×éÖ¯¾Í»á¶ÔÓ¦µØ·ÖÅä¹«¹²µØÖ·¸øÂò¼Ò£»
@@ -21,28 +23,52 @@ BLEµÄ¹«¹²µØÖ·£¬¾ÍÀàËÆÓÚÎÒÃÇÈÕ³£µÄÉí·ÝÖ¤ºÅÂë£¬ÊÇÈ«ÇòÎ¨Ò»µÄÇÒ²»¿É¸Ä±äµÄ£¬²»Í¬µÄÊÇ£
 ³ýÁË¹«¹²µØÖ·ÀàÐÍÖ®Íâ£¬»¹ÓÐÒ»¸öËæ»úµØÖ·ÀàÐÍ£¬ÆäÓÖ·ÖÎª**¾²Ì¬µØÖ·£¨Static Address£©**ºÍ**Ë½ÓÐµØÖ·£¨Private Address£©**£¬ËüÃÇÖ®¼äÖ÷ÒªÍ¨¹ý×î¸ßµÄ2Î»ÓÐÐ§Î»À´Çø·Ö£¬¾ßÌåÈçÏÂËùÊ¾£º
 ## ¾²Ì¬µØÖ·£¨Static Address£©
 Í¬Ñù£¬Æä×Ü³¤¶ÈÒ²ÊÇ48bits£¬µ«ÊÇ×î¸ßµÄ2Î»ÓÐÐ§Î»ÊÇ`0b11`£¬×é³É½á¹¹ÈçÏÂÍ¼ËùÊ¾£º
-  <img src="../Asserts/static-address-format.drawio.png" width = "" height = "" alt="" align=center />
+  
+<img src="../Asserts/static-address-format.drawio.png" width = "" height = "" alt="" align=center />
 
 ¸ÃµØÖ·ÀàÐÍµÄÖ÷ÒªÌØµãÈçÏÂ£º
 1. ¾²Ì¬µØÖ·µÄËæ»ú²¿·ÖÖÁÉÙÓÐÒ»¸öbitÊÇ0ºÍ1£»
 1. ÓÃ»§ÔÚÂú×ãÉÏÊöÌõ¼þµÄÇé¿öÏÂ£¬¿ÉÒÔ×ÔÐÐÅäÖÃBLEÉè±¸µÄ¾²Ì¬µØÖ·£»
 1. ¾²Ì¬µØÖ·ÔÚÉÏµçÖ®ºó£¬²»¿ÉÖÐÍ¾¸Ä±ä£»
-1. Ö»ÄÜÔÚÖØÐÂÉÏµçÖ®ºó£¬²ÅÄÜ¸Ä±ä¾²Ì¬µØÖ·µÄÄÚÈÝ£»
+1. Ö»ÄÜÔÚÖØÐÂÉÏµçÖ®ºó£¬²ÅÄÜ¸Ä±ä¾²Ì¬µØÖ·µÄÄÚÈÝ **£¨·ÇÇ¿ÖÆÐÔ£¬Ò²¿ÉÒÔ²»¸Ä±ä£©**£»
 1. Èç¹ûBLEÉè±¸µÄ¾²Ì¬µØÖ·¸Ä±äÁË£¬ÄÇÃ´Èç¹û¶Ô¶ËÉè±¸´æ·ÅÁËÖ®Ç°µÄ¾²Ì¬µØÖ·£¬Õâ¾Í»áµ¼ÖÂÖØÁ¬¾ÉµÄµØÖ·Ê±Ê§°Ü£»
 
 ## Ë½ÓÐµØÖ·£¨Private Address£©
 BLEµÄË½ÓÐµØÖ·ÓÖ·ÖÎª**²»¿É½âÎöË½ÓÐµØÖ·£¨Non-resolvable private address)** ºÍ **¿É½âÎöË½ÓÐµØÖ·£¨Resolvable private address£©**£¬ËüÃÇÖ®¼äµÄÖ÷ÒªÇø±ðÈçÏÂ£º
 
 ### ¿É½âÎöË½ÓÐµØÖ·£¨Resolvable private address£©
+¸ÃÀàÐÍµÄµØÖ·µÄ³¤¶È´óÐ¡Í¬ÑùÎª48bits£¬×î¸ßµÄ2Î»ÓÐÐ§Î»ÊÇ`0b10`£¬Æä×é³É½á¹¹ÈçÏÂÍ¼ËùÊ¾£º
 
+<img src="../Asserts/resolvable-private-address.drawio.png" width = "" height = "" alt="" align=center />
+
+¸ÃÀàÐÍµÄµØÖ·Ëù¶ÔÓ¦µÄÌØµãÈçÏÂ£º
+1. ÉÏÍ¼ÖÐÏÔÊ¾µÄËæ»ú²¿·ÖµÄÄÚÈÝÖÁÉÙÓÐÒ»¸öbitÊÇ0ºÍ1£»
+1. ¸ÃµØÖ·»áÖÜÆÚÐÔ±ä»¯£»
+
+ÆäÖÐ£¬`hash = ah(IRK, prand)`£¬prandÔòÊÇÉè±¸±¾µØËæ»ú²úÉúµÄ24bitsÊý¾Ý£¬¶øIRK¿ÉÒÔÊÇÔÚÉè±¸±¾µØËæ»ú²úÉú»òÕßÔÚÉè±¸Éú²úÊ±·ÖÅä¡£
 ### ²»¿É½âÎöË½ÓÐµØÖ·£¨Non-resolvable private address)
-¹ËÃûË¼Òå£¬¾ÍÊÇËµ¸ÃË½ÓÐµØÖ·²»¿ÉÒÔ±»½âÎö£¬Æä×é³ÉµÄ½á¹¹ÈçÏÂÍ¼ËùÊ¾£º
+¹ËÃûË¼Òå£¬¾ÍÊÇËµ¸ÃË½ÓÐµØÖ·²»¿ÉÒÔ±»½âÎö£¬Æä×é³É½á¹¹ÈçÏÂÍ¼ËùÊ¾£º
 
 <img src="../Asserts/non-resolvable-private-address-format.drawio.png" width = "" height = "" alt="" align=center />
 
-Í¬Ñù£¬Æä×Ü³¤¶ÈÎª48bits£¬¶ÔÓ¦µÄÌØµãÈçÏÂ£º
+Í¬Ñù£¬Æä×Ü³¤¶ÈÎª48bits£¬µ«ÊÇ×î¸ßµÄ2Î»ÓÐÐ§Î»ÊÇ`0b00`£¬Æä¶ÔÓ¦µÄÌØµãÈçÏÂ£º
 1. Ëæ»ú²¿·ÖµÄÄÚÈÝÖÁÉÙÓÐÒ»¸öbitÊÇ0ºÍ1£»
 1. ²»¿É½âÎöË½ÓÐµØÖ·²»ÄÜÓë¹«¹²µØÖ·ÏàÍ¬£»
+1. ¸ÃµØÖ·»áÖÜÆÚÐÔ±ä»¯£»
 
 # ×Ü½á
+½éÉÜÍêÉÏÊöµÄ²»Í¬ÀàÐÍµÄµØÖ·Ö®ºó£¬ÎÒÏàÐÅ¸ü¶àµÄÈËÏëÖªµÀÈçºÎÊ¹ÓÃÕâÐ©ÀàÐÍµÄµØÖ·£¬»òÕßËµÔÚÊ²Ã´³¡¾°ÏÂÊ¹ÓÃÕâÐ©ÀàÐÍµÄµØÖ·¡£
+## ¹«¹²µØÖ·£¨Public Address£©
+¸ÃÀàÐÍµÄµØÖ·ÊÇÈ«ÇòÎ¨Ò»ÇÒ¹Ì¶¨µÄ£¬ÀíÂÛÉÏÖØ¸´µÄ¸ÅÂÊ»ù±¾Îª0£¬ÒòÎªËüÃÇÊÇÓÉ[IEEE×éÖ¯](https://standards.ieee.org/products-services/regauth/index.html)·ÖÅä¸øÂò¼ÒµÄ£¬ÊÊÓÃÓÚÎª±£Ö¤BLEÉè±¸µØÖ·µÄÎ¨Ò»ÐÔ£¬·½±ãÆäËûÈË±ç±ð¡£
 
+## ¾²Ì¬µØÖ·£¨Static Address£©
+Ëµ¾ä²»ºÃÌýµÄ£¬¸ÃÀàÐÍµÄµØÖ·¾ÍÊÇ·½±ã¸÷BLEÉè±¸Éú²úÉÌ°×æÎ£¬ÒòÎªÕâÖÖÀàÐÍµÄµØÖ·ÊÇÃâ·ÑµÄ£¬²»ÐèÒªÏòIEEE×éÖ¯¹ºÂò£¬Í¬Ê±ÔÚÒ»¶¨·¶Î§ÄÚ»¹ÄÜ±£Ö¤µØÖ·µÄÎ¨Ò»ÐÔ£¬¼ò¶øÑÔÖ®¾ÍÊÇ**Ãâ·Ñ£«ÓÐÏÞµÄÎ¨Ò»ÐÔ£½ÕæÏã£¡**
+
+## ¿É½âÎöË½ÓÐµØÖ·£¨Resolvable private address£©
+¿É½âÎöË½ÓÐµØÖ·µÄÄ¿µÄÊÇ·ÀÖ¹¶ñÒâµÚÈý·½¸ú×ÙÀ¶ÑÀÉè±¸£¬Í¬Ê±ÈÔÔÊÐíÒ»¸ö»ò¶à¸öÊÜÐÅÈÎ·½Ê¶±ð¸ÐÐËÈ¤µÄBLEÉè±¸¡£¶ø¿É½âÎöµÄÒâË¼¾ÍÊÇËµ£º
+> BLEÉè±¸×ÔÉí²úÉúµÄIRKÓëÊÜÐÅÈÎ·½·ÖÏíÖ®ºó£¬µ±ÊÜÐÅÈÎ·½µÄBLEÉè±¸½ÓÊÕµ½¿É½âÎöË½ÓÐµØÖ·£¬¾Í»áÌáÈ¡³ö`prand`ÖµÔÙÓë¶Ô¶ËÉè±¸·ÖÏíµÄ`IRK`£¬½øÐÐ**ah**¼ÆËãµÃ³öÒ»¸ö`localHash`Öµ£¬Óë¿É½âÎöË½ÓÐµØÖ·ÖÐµÄ`hash`Öµ½øÐÐ±È¶Ô£¬Èç¹ûÆ¥ÅäÉÏÁËÄÇÃ´¶ÔµÈÉè±¸µÄÉí·Ý¾ÍÒÑ¾­½âÎö¡£
+
+## ²»¿É½âÎöË½ÓÐµØÖ·£¨Non-resolvable private address)
+Ïà½ÏÓÚ¿É½âÎöË½ÓÐµØÖ·£¬¸ÃÀàÐÍµÄµØÖ·ÊÇ²»¿É½âÎöµÄ£¬ËùÒÔÕâÖÖÀàÐÍµÄµØÖ·²»Ì«³£ÓÃ£¬µ«ÊÇÓÐÊ±»áÔÚÒ»Ð©BeaconµÄÓ¦ÓÃÉÏÊ¹ÓÃ¡£´ËÀàµØÖ·µÄÎ¨Ò»Ä¿µÄÊÇ·ÀÖ¹ÈÎºÎÆäËû BLE Éè±¸½øÐÐ¸ú×Ù¡£
+
+**×îºó£¬BLEÉè±¸µÄµØÖ·±ØÐëÊÇ¹«¹²µØÖ·»òÕß¾²Ì¬µØÖ·£¬¶ø²»¿É½âÎöºÍ¿É½âÎöµØÖ·ÊÇ¿ÉÑ¡µÄ¡£»»¾ä»°Ëµ£¬¼´Ê¹Ê¹ÓÃÁË²»¿É½âÎö»òÕß¿É½âÎöµØÖ·£¬BLEÉè±¸»¹±ØÐëÈÔÈ»´æÔÚ¹«¹²µØÖ·»òÕß¾²Ì¬µØÖ·£¬Ò²¾ÍÊÇ´ËÊ±BLEÉè±¸ÓÐÁ½ÖÖÀàÐÍµÄµØÖ·£¬ÒòÎª²»¿É½âÎöºÍ¿É½âÎöµØÖ·½öÓÃÓÚ½â¾öÒþË½ÎÊÌâ**
