@@ -2,7 +2,6 @@
 - [HX-DK-商](#hx-dk-商)
   - [原理图](#原理图)
   - [PCB图](#pcb图)
-  - [ESP32-C3关键资料](#esp32-c3关键资料)
 - [教程](#教程)
 - [关于我们](#关于我们)
 
@@ -20,14 +19,10 @@
 [HX-DK-商开发板原理图](Hardware/Schematic/HX-DK-商_V1.1.pdf)
 ## PCB图
 [HX-DK-商开发板PCB图](Hardware/Layout/HX-DK-商_Layout_V1.1.pdf)
-## ESP32-C3关键资料
-1. [ESP32-C3规格书](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)
-1. [ESP32-C3技术参考手册](https://www.espressif.com/sites/default/files/documentation/esp32-c3_technical_reference_manual_en.pdf)
-1. [ESP32-C3编程指南](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/get-started/index.html#introduction)
 
 
 # 教程
-由于篇幅原因，教程的详细内容请移步至[此处](tutorials/README.md)
+由于篇幅有限，教程的详细内容请移步至[此处](tutorials/README.md)
 
 # 关于我们
 1. 技术交流论坛
