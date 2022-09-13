@@ -66,6 +66,37 @@
 ### Secure Boot
 ### Flash Encryption
 
+## Bluetooth LE 从机篇
+### 广播
+- [4.1.1 Bluetooth LE地址](#411-bluetooth-le地址)
+  - [4.1.2 公有地址（Public Address）](#412-公有地址public-address)
+  - [4.1.3 随机地址（Random Address）](#413-随机地址random-address)
+    - [4.1.3.1 静态地址（Static Address）](#4131-静态地址static-address)
+    - [4.1.3.2 私有地址（Private Address）](#4132-私有地址private-address)
+      - [4.1.3.2.1 可解析私有地址（Resolvable Private Address）](#41321-可解析私有地址resolvable-private-address)
+      - [4.1.3.2.2 不可解析私有地址（Non-Resolvable Private Address)](#41322-不可解析私有地址non-resolvable-private-address)
+- [4.1.2 不同地址的区别](#412-不同地址的区别)
+  - [4.1.2.1 公共地址（Public Address）](#4121-公共地址public-address)
+  - [4.1.2.2 静态地址（Static Address）](#4122-静态地址static-address)
+  - [4.1.2.3 可解析私有地址（Resolvable Private Address）](#4123-可解析私有地址resolvable-private-address)
+  - [4.1.2.4 不可解析私有地址（Non-Resolvable Private Address)](#4124-不可解析私有地址non-resolvable-private-address)
+- [4.1.3 结语](#413-结语)
+### 串口透传
+#### 服务
+#### 特征值
+#### 属性与权限
+#### 描述符
+### 发射功率
+### 连接间隔更新
+### MTU交换
+### 数据长度扩展
+### PHY切换
+#### 2M PHY
+#### CODED PHY
+### 配对与绑定
+### 一从多主
+### 空中升级
+
 ## Bluetooth LE 主机篇
 ### 扫描
 ### 连接Bluetooth LE外设
@@ -85,24 +116,6 @@
 #### CODED PHY
 ### 配对与绑定
 ### 一主多从
-
-## Bluetooth LE 从机篇
-### 广播
-### 串口透传
-#### 服务
-#### 特征值
-#### 属性与权限
-#### 描述符
-### 发射功率
-### 连接间隔更新
-### MTU交换
-### 数据长度扩展
-### PHY切换
-#### 2M PHY
-#### CODED PHY
-### 配对与绑定
-### 一从多主
-### 空中升级
 
 ## Bluetooth LE 综合篇
 ### 主从一体
