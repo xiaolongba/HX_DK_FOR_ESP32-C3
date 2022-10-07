@@ -13,7 +13,7 @@
 
 <img src="https://docdisk.wireless-tech.cn/img/2021/10/15/hx_dk_shang_20211015110649848518.png" width = "" height = "" alt="" align=center />
 
-[HX-DK-商](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w4004-22286946226.12.7f292c2cfSNrZb&id=654877303965)的概貌如上图所示，关于更多HX-DK-商的内容，请参阅红旭无线公众号的推文[【新品上市】HX-DK-商，支持WiFi+BLE5.0](https://mp.weixin.qq.com/s/7ETvlsvo3OYlM7oS1uCpLA)
+[HX-DK-商](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w4004-22286946226.12.7f292c2cfSNrZb&id=654877303965)的概貌如上图所示，关于更多HX-DK-商的内容，请参阅红旭无线公众号的推文[【新品上市】HX-DK-商，支持WiFi+BLE5.0](https://mp.weixin.qq.com/s/7ETvlsvo3OYlM7oS1uCpLA)。
 
 ## 原理图
 [HX-DK-商开发板原理图](Hardware/Schematic/HX-DK-商_V1.1.pdf)
@@ -22,7 +22,7 @@
 
 
 # 教程
-由于篇幅有限，教程的详细内容请移步至[此处](Tutorials/README.md)
+教程的详细内容请移步至本代码的[WiKi页面](https://github.com/xiaolongba/HX_DK_FOR_ESP32-C3/wiki)。
 
 # 关于我们
 1. 技术交流论坛
