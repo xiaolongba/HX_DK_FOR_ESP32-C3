@@ -22,7 +22,7 @@
 
 
 # 教程
-教程的详细内容请移步至本代码的[WiKi页面](https://github.com/xiaolongba/HX_DK_FOR_ESP32-C3/wiki)。
+教程的详细内容请移步至本代码的[Wiki页面](https://github.com/xiaolongba/HX_DK_FOR_ESP32-C3/wiki)。
 
 # 关于我们
 1. 技术交流论坛
